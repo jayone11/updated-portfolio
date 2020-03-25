@@ -2,7 +2,7 @@
 
 This project uses Skeleton CSS, Normalize.css and Particles JS
 
-![Screenshot of Demo](/images/screenshot-1.png)
+![Screenshot of Demo](./images/screenshot-1.png)
 
 ## Demo
 
@@ -11,7 +11,7 @@ This project uses Skeleton CSS, Normalize.css and Particles JS
 
 ## Tech Used
 
-- [HTML5]
+- [HTML5] 
 - [CSS]
 - [JS]
 - [ParticleJS]
