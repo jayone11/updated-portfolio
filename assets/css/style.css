@@ -213,9 +213,9 @@ iframe {
 .desktop {
     /* position: relative; */
     width: 566px;
-    height: 538px;
+    height: 380px;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/large-screen-optimised.png");
-    background-size: 70%;
+    background-size: 60%;
     background-repeat: no-repeat;
     /* top: 600px; */
     /* left: 220px; */
@@ -223,12 +223,12 @@ iframe {
 }
 
 .desktop iframe {
-    left: 20px;
-    top: 27px;
+    left: 14px;
+    top: 23px;
     width: 1600px;
     height: 992px;
     transform: scale(0.2239);
-    -webkit-transform: scale(0.2239);
+    -webkit-transform: scale(0.1939);
     -o-transform: scale(0.2239);
     -ms-transform: scale(0.2239);
     -moz-transform: scale(0.2239);
