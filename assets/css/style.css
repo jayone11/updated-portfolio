@@ -53,6 +53,7 @@ body {
   
   .top {
     padding-bottom: 5rem;
+    height: 225px;
   }
   
   .header-content {
@@ -79,7 +80,7 @@ body {
   }
 
   .row {
-    padding: 1em 0;
+    padding: .5em 0;
   }
   
   /* Cursor Styling */
@@ -168,7 +169,7 @@ body {
     background-repeat: no-repeat;
     background-size: 65%;
     width: 477px;
-    height: 307px;
+    height: 237px;
     /* margin-left: 100px; */
     /* top: 264px; */
     /* left: 560px; */
@@ -406,6 +407,7 @@ input[type="submit"]:focus {
   @media (min-width: 750px) {
 
       .laptop {
+        height: 307px;
         background-size: 100%;
       }
 
