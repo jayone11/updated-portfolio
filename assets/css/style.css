@@ -166,6 +166,7 @@ body {
   .laptop {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/laptop-screen-optimised.png");
     background-repeat: no-repeat;
+    background-size: 65%;
     width: 477px;
     height: 307px;
     /* margin-left: 100px; */
@@ -177,14 +178,14 @@ body {
 }
 .laptop iframe {
     width: 1280px;
-    height: 802px;
-    top: 26px;
-    left: 60px;
-    transform: scale(0.277);
-    -webkit-transform: scale(0.277);
-    -o-transform: scale(0.277);
-    -ms-transform: scale(0.277);
-    -moz-transform: scale(0.277);
+    height: 800px;
+    top: 17px;
+    left: 38px;
+    transform: scale(0.182);
+    -webkit-transform: scale(0.182);
+    -o-transform: scale(0.182);
+    -ms-transform: scale(0.182);
+    -moz-transform: scale(0.182);
     transform-origin: top left;
     -webkit-transform-origin: top left;
     -o-transform-origin: top left;
@@ -400,7 +401,22 @@ input[type="submit"]:focus {
   
   /* Larger than tablet */
   
-  @media (min-width: 750px) {}
+  @media (min-width: 750px) {
+
+      .laptop {
+        background-size: 100%;
+      }
+
+      .laptop iframe {
+      transform: scale(0.277);
+      -webkit-transform: scale(0.277);
+      -o-transform: scale(0.277);
+      -ms-transform: scale(0.277);
+      -moz-transform: scale(0.277);
+      top: 26px;
+      left: 60px;
+    }
+  }
   
   
   /* Larger than desktop */
