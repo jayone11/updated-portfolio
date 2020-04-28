@@ -214,21 +214,23 @@ iframe {
     width: 566px;
     height: 538px;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/large-screen-optimised.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
     /* top: 600px; */
     /* left: 220px; */
-    z-index: 1
+    z-index: 1;
 }
 
 .desktop iframe {
-    left: 28px;
-    top: 38px;
+    left: 20px;
+    top: 27px;
     width: 1600px;
     height: 992px;
-    transform: scale(0.3181);
-    -webkit-transform: scale(0.3181);
-    -o-transform: scale(0.3181);
-    -ms-transform: scale(0.3181);
-    -moz-transform: scale(0.3181);
+    transform: scale(0.2239);
+    -webkit-transform: scale(0.2239);
+    -o-transform: scale(0.2239);
+    -ms-transform: scale(0.2239);
+    -moz-transform: scale(0.2239);
     transform-origin: top left;
     -webkit-transform-origin: top left;
     -o-transform-origin: top left;
@@ -415,6 +417,26 @@ input[type="submit"]:focus {
       -moz-transform: scale(0.277);
       top: 26px;
       left: 60px;
+    }
+
+    .desktop {
+      /* position: relative; */
+      width: 566px;
+      height: 538px;
+      background-size: 100%;
+      
+    }
+
+    .desktop iframe {
+      left: 28px;
+      top: 38px;
+      width: 1600px;
+      height: 992px;
+      transform: scale(0.3181);
+      -webkit-transform: scale(0.3181);
+      -o-transform: scale(0.3181);
+      -ms-transform: scale(0.3181);
+      -moz-transform: scale(0.3181);
     }
   }
   
